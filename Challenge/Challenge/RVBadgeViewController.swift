@@ -19,8 +19,8 @@ class RVBadgeViewController: UIViewController {
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
-		parseJsonFromUrl(urlString: apiUrl)
 		setupText()
+		parseJsonFromUrl(urlString: apiUrl)
     }
 	
 	func parseJsonFromUrl(urlString: String) {
